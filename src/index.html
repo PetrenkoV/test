@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="ru">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+</head>
+
+<body>
+    <div class="top">
+        <div class="uk-container">
+            <div class="left">
+                <ul>
+                    <li><a href="">Каталог</a></li>
+                    <li><a href="">Купить</a></li>
+                    <li><a href="">Снять</a></li>
+                    <li><a href="">Новостройки</a></li>
+                    <li><a href="">О нас</a></li>
+                    <li><a href="">Услуги</a></li>
+                    <li><a href="">Карьера</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <button class='leave'>Оставить объявление</button>
+                <a href="" id="addBookmarks">Мое избранное</a>
+            </div>
+            <span class="aside"><img src="img/home.png" alt=""></span>
+            <div id="aside">
+                <div class="container">
+                    <ul>
+                        <li><a href="">Каталог</a></li>
+                        <li><a href="">Купить</a></li>
+                        <li><a href="">Снять</a></li>
+                        <li><a href="">Новостройки</a></li>
+                        <li><a href="">О нас</a></li>
+                        <li><a href="">Услуги</a></li>
+                        <li><a href="">Карьера</a></li>
+                    </ul>
+                    <button class='leave'>Оставить объявление</button>
+                    <a href="" id="addBookmarks">Мое избранное</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="uk-container">
+            <p class="caption">Добро пожаловать, Ты Дома!</p>
+            <p class="title">АГЕНТСТВО УЮТА И ТЕПЛА</p>
+            <p class="description">Покупка, продажа и аренда недвижимости в Киеве</p>
+            <form action="" id="form">
+                <div class="autocomplete uk-form" data-uk-autocomplete="{source:'./js/cities.json'}">
+                    <input type="text" placeholder="Введите район, улицу, станцию метро или адрес" id='ajax'>
+                </div>
+                <div class="dropdown">
+                    <input type="button" value="Продажа" id="check">
+                    <div class="option">
+                        <ul class='list'>
+                            <li class="list_item active">Продажа</li>
+                            <li class="list_item">Аренда</li>
+                            <li class="list_item">Новострои</li>
+                            <li class="list_item">Комерческая</li>
+                        </ul>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </header>
+    <div class="build">
+        <div class="uk-container">
+            <p class="title">Застройщики Киева</p>
+            <div class="uk-slidenav-position" data-uk-slider="{autoplay: false}">
+                <div class="uk-slider-container">
+                    <ul class="uk-slider uk-grid">
+                        <li><img src="img/image-1.png" alt=""></li>
+                        <li><img src="img/image-2.png" alt=""></li>
+                        <li><img src="img/image-3.png" alt=""></li>
+                        <li><img src="img/image-4.png" alt=""></li>
+                        <li><img src="img/image-5.png" alt=""></li>
+                    </ul>
+                </div>
+                <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slider-item="previous"><img src="img/slide_prev.png" alt=""></a>
+                <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slider-item="next"><img src="img/slide_next.png" alt=""></a>
+            </div>
+            <div class="flex">
+                <div class="item_1">
+                    <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>
+                    <p class="text">
+                        Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. </p>
+                </div>
+                <div class="item_2">
+                    <p class="text"> Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. </p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="uk-container container">
+                <div class="item_1">
+                    <p class="caption">ТЫ ДОМА!</p>
+                    <p class="description">АГЕНСТВО НЕДВИЖИМОСТИ</p>
+                    <p class="copyright">© “Ты Дома!”. Все права защищены. 2015</p>
+                </div>
+                <div class="item_2">
+                    <div class="wrap">
+                        <p class="title">НЕДВИЖИМОСТь</p>
+                        <ul>
+                            <li><a href="">Продать</a></li>
+                            <li><a href="">Купить</a></li>
+                            <li><a href="">Сдать</a></li>
+                            <li><a href="">Снять</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item_3">
+                    <div class="wrap">
+                        <p class="title">АГЕНТСТВО</p>
+                        <ul>
+                            <li><a href="">О нас</a></li>
+                            <li><a href="">Услуги</a></li>
+                            <li><a href="">Карьера</a></li>
+                            <li><a href="">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item_4">
+                    <div class="wrap">
+                        <p class="title">ПРИСОЕДИНЯЙСЯ</p>
+                        <ul>
+                            <li>
+                                <a href=""><img src="img/fb.png" class="fb" alt="">Facebook</a>
+                            </li>
+                            <li>
+                                <a href=""><img src="img/vk.png" class="vk" alt="">Vkontakte</a>
+                            </li>
+                            <li>
+                                <a href=""><img src="img/tw.png" class="tw" alt="">Twitter</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="" class="scroll"><img src="img/up.png" alt=""></a>
+            </div>
+        </footer>
+</body>
+
+</html>
